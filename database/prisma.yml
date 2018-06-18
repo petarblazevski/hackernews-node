@@ -1,0 +1,8 @@
+service: hackernews-node
+
+stage: dev
+
+datamodel: datamodel.graphql
+
+secret: mysecret123
+cluster: public-phasevulture-313/prisma-eu1
