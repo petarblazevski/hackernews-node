@@ -1,8 +1,9 @@
-service: hackernews-node
+#service: hackernews-node
 
-stage: dev
+#stage: dev
 
 datamodel: datamodel.graphql
 
 secret: mysecret123
-cluster: public-phasevulture-313/prisma-eu1
+#cluster: public-phasevulture-313/prisma-eu1
+endpoint: https://eu1.prisma.sh/public-phasevulture-313/hackernews-node/dev
